@@ -16,7 +16,7 @@ p{
     color: #3E3E3E;;
 }
 section{
-    height: 500px;
+    height: 600px;
 }
 .navbar{
     text-align: right;
@@ -106,15 +106,16 @@ box-shadow: 5px 5px 10px gainsboro;
     background-repeat: no-repeat;
     background-size: 100%;
     margin: auto;
+    height: 400px;
     background-position:center;
 }
 #work-inqury{
-margin-top: 130px;
+margin-top: 90px;
 color: white;
 }
 
 #chat-btn{
-  margin-top: 190px;
+  margin-top: 150px;
   text-align: right;
 }
 h5{
@@ -135,4 +136,19 @@ h4{
 .footer img{
     padding-top: 15px;
     width: 40px;
+    padding-left: 10px;
+}
+.gradient-text{
+    float: left;
+    font-size: 16px;
+    padding: 20px;
+    font-weight: 700;
+    margin-left: 5px;
+    border: solid 2px slateblue;
+    border-radius: 5px;
+    text-align: center;
+    background: -webkit-linear-gradient(10deg,rgb(52, 105, 250),rgb(75, 10, 95));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-color: gray;
 }
